@@ -10,16 +10,16 @@
     "examples": [
         {
             "input_text": "This is a prompt.",
-            "tags": ["Math"],  # A list of keywords for categorizing prompts
+            "tags": ["Math"],  
             "output_text_a": "Response to the prompt from the first model (A)",
             "output_text_b": "Response to the prompt from the other model (B)",
-            "score": -1.25,  # Score from the judge LLM
+            "score": -1.25,  
             "individual_rater_scores": [],
             "custom_fields": {}
         },
         {
             "input_text": "This is a next prompt.",
-            ...
+     
         }
     ]
 }
